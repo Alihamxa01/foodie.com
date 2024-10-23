@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 export default function Header() {
+  
   return (
     <header className='bg-gradient-to-r sticky top-0 z-50 from-orange-400 to-orange-500 shadow-lg'>
       <div className='flex justify-between items-center p-6'>
-        <h1 className='text-4xl font-extrabold text-white '>
-          MR. FOODIE
-        </h1>
-        <nav className='space-x-8'>
+        <h1 className='text-4xl font-extrabold text-white'>MR. FOODIE</h1>
+
+        {/* Mobile menu button */}
+        
+        <nav className="space-x-8">
           <a 
             href="#home" 
-            className='text-lg font-semibold text-white hover:text-amber-800 transition duration-300 ease-in-out '
+            className='text-lg font-semibold text-white hover:text-amber-800 transition duration-300 ease-in-out'
           >
             Home
           </a>
@@ -35,5 +37,5 @@ export default function Header() {
         </nav>
       </div>
     </header>
-  )
+  );
 }
