@@ -18,7 +18,7 @@ function page() {
 
 
 
-<Image src='img2.png'alt="PHOTO" className='  h-5/6 w-300px absolute right-0 top-28'/>
+<Image src='img2cls.png'alt="PHOTO" className='  h-5/6 w-300px absolute right-0 top-28'/>
 
 
 
