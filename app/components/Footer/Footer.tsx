@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Image
+ from 'next/image';
 export default function Footer() {
   return (
     <footer  className=" h-screen bg-gradient-to-tr from-orange-500 to-amber-900 text-white py-10 border-t-8 border-y-yellow-950">
@@ -39,8 +40,8 @@ export default function Footer() {
 
 
       <div className="text-center">
-      <img src="pic.png" className="h-80 object-cover mt-16 rounded-lg mx-auto mb-4" />
-      <p className="text-lg font-bold"></p>
+      <Image src="pic.png" alt='PHOTO' className="h-80 object-cover mt-16 rounded-lg mx-auto mb-4"/> 
+            <p className="text-lg font-bold"></p>
     </div>
 
     </footer>

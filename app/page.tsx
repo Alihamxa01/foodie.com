@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+
+import Image from 'next/image'
+
 function page() {
   return (
     <div>
@@ -12,7 +15,12 @@ function page() {
   <h1 className='font-serif font-extrabold '><span className='text-red-600'>GOOD FOOD,</span><br/>GOOD MOOD!</h1>
   <h2 className='text-4xl font-bold font-mono ml-44 text-orange-600'>MR.FOODIE</h2>
 </div>
-<img src='img2.png' className='  h-5/6 w-300px absolute right-0 top-28'/>
+
+
+
+<Image src='img2.png'alt="PHOTO" className='  h-5/6 w-300px absolute right-0 top-28'/>
+
+
 
 </section>
 
@@ -21,32 +29,32 @@ function page() {
 <section id="food" className=" bg-gradient-to-tr to-orange-400 from-orange-600 max-h-max border-t-8 rounded-xl border-orange-800 p-8">
   <div className="grid grid-cols-3 gap-10">
     <div className="text-center">
-      <img src="img3.jpg" className=" hover:scale-110 duration-100  h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
+      <Image src="img3.jpg" alt='photo' className=" hover:scale-110 duration-100  h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
       <p className="text-lg font-bold ">ZINGER-BURGER WITH LOADED FRIES </p>
     </div>
 
     <div className="text-center">
-      <img src="p1.jpg" className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
+      <Image src="p1.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
       <p className="text-lg font-bold"> SHASHLIK STICKS</p>
     </div>
 
     <div className="text-center">
-      <img src="p2.jpg" className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
+      <Image src="p2.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
       <p className="text-lg font-bold">CHICKEN KABAB PLATTER </p>
     </div>
 
     <div className="text-center">
-      <img src="p3.jpg" className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
+      <Image src="p3.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
       <p className="text-lg font-bold">SPEACIAL CHAPLI KABAB</p>
     </div>
 
     <div className="text-center">
-      <img src="p4.jpg" className="hover:scale-110 duration-300 ease-in-out h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
+      <Image src="p4.jpg" alt='photo' className="hover:scale-110 duration-300 ease-in-out h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
       <p className="text-lg font-bold">Classic Chicken Karahi:"<br/> A Spicy Delight with Soft Naan</p>
     </div>
 
     <div className="text-center">
-      <img src="p5.jpg" className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
+      <Image src="p5.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
       <p className="text-lg font-bold">Biryani Bliss: <br/>Aromatic Rice and Tender Chicken Fusion.<br/>hwhBBbFADGFSD</p>
     </div>
   </div>
