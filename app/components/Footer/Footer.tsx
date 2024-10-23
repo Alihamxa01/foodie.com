@@ -40,7 +40,10 @@ export default function Footer() {
 
 
       <div className="text-center">
-      <Image src="pic.png" alt='PHOTO' className="h-80 object-cover mt-16 rounded-lg mx-auto mb-4"/> 
+      <Image src="/pic.png"
+        width={300} 
+        height={400} 
+         alt='PHOTO' className="h-80 object-cover mt-16 rounded-lg mx-auto mb-4"/> 
             <p className="text-lg font-bold"></p>
     </div>
 

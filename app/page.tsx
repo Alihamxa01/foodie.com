@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
@@ -18,48 +20,89 @@ function page() {
 
 
 
-<Image src='img2clscls
-.png'alt="PHOTO" className='  h-5/6 w-300px absolute right-0 top-28'/>
+<Image 
+  src='/img2.png' // Add leading slash for the correct path
+  width="500" // Use numeric value, not a string
+  height="600" 
+  alt="PHOTO" 
+  className='h-5/6  absolute right-0 top-28' // Corrected width class
+/>
 
 
 
 </section>
 
 {/* imges */}
-
-<section id="food" className=" bg-gradient-to-tr to-orange-400 from-orange-600 max-h-max border-t-8 rounded-xl border-orange-800 p-8">
+<section id="food" className="bg-gradient-to-tr to-orange-400 from-orange-600 max-h-max border-t-8 rounded-xl border-orange-800 p-8">
   <div className="grid grid-cols-3 gap-10">
     <div className="text-center">
-      <Image src="img3.jpg" alt='photo' className=" hover:scale-110 duration-100  h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
-      <p className="text-lg font-bold ">ZINGER-BURGER WITH LOADED FRIES </p>
+      <Image 
+        src="/img3.jpg" // Added leading slash
+        alt='photo'   
+        width={300} 
+        height={400} 
+        className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" 
+      />
+      <p className="text-lg font-bold">ZINGER-BURGER WITH LOADED FRIES</p>
     </div>
 
     <div className="text-center">
-      <Image src="p1.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
-      <p className="text-lg font-bold"> SHASHLIK STICKS</p>
+      <Image 
+        src="/p1.jpg" // Added leading slash
+        alt='photo'   
+        width={300} 
+        height={400} 
+        className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" 
+      />
+      <p className="text-lg font-bold">SHASHLIK STICKS</p>
     </div>
 
     <div className="text-center">
-      <Image src="p2.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
-      <p className="text-lg font-bold">CHICKEN KABAB PLATTER </p>
+      <Image 
+        src="/p2.jpg" // Added leading slash
+        alt='photo'   
+        width={300} 
+        height={400} 
+        className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" 
+      />
+      <p className="text-lg font-bold">CHICKEN KABAB PLATTER</p>
     </div>
 
     <div className="text-center">
-      <Image src="p3.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
-      <p className="text-lg font-bold">SPEACIAL CHAPLI KABAB</p>
+      <Image 
+        src="/p3.jpg" // Added leading slash
+        alt='photo'   
+        width={300} 
+        height={400} 
+        className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" 
+      />
+      <p className="text-lg font-bold">SPECIAL CHAPLI KABAB</p>
     </div>
 
     <div className="text-center">
-      <Image src="p4.jpg" alt='photo' className="hover:scale-110 duration-300 ease-in-out h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
-      <p className="text-lg font-bold">Classic Chicken Karahi:"<br/> A Spicy Delight with Soft Naan</p>
+      <Image 
+        src="/p4.jpg" // Added leading slash
+        alt='photo'   
+        width={300} 
+        height={400} 
+        className="hover:scale-110 duration-300 ease-in-out h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" 
+      />
+      <p className="text-lg font-bold">Classic Chicken Karahi:<br /> A Spicy Delight with Soft Naan</p>
     </div>
 
     <div className="text-center">
-      <Image src="p5.jpg" alt='photo' className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" />
-      <p className="text-lg font-bold">Biryani Bliss: <br/>Aromatic Rice and Tender Chicken Fusion.<br/>hwhBBbFADGFSD</p>
+      <Image 
+        src="/p5.jpg" // Added leading slash
+        alt='photo'   
+        width={300} 
+        height={400} 
+        className="hover:scale-110 duration-100 h-80 object-cover border-8 border-orange-800 rounded-lg mx-auto mb-4" 
+      />
+      <p className="text-lg font-bold">Biryani Bliss:<br /> Aromatic Rice and Tender Chicken Fusion.</p>
     </div>
   </div>
 </section>
+
 
 {/* speacial */}
 <section>
@@ -132,14 +175,5 @@ function page() {
 
 
 export default page
-
-
-
-
-
-
-
-
-
 
 
