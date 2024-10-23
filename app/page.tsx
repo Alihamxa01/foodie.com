@@ -25,7 +25,7 @@ function page() {
 
 </section>
 
-{/* iamges */}
+{/* imges */}
 
 <section id="food" className=" bg-gradient-to-tr to-orange-400 from-orange-600 max-h-max border-t-8 rounded-xl border-orange-800 p-8">
   <div className="grid grid-cols-3 gap-10">
