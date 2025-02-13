@@ -1,30 +1,16 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Hero from './components/Hero/Hero';
 import Image from 'next/image';
+
 
 function Page() {
   return (
     <div>
       <Header />
-
-      {/* Hero Section */}
-      <section id="home" className="flex flex-col h-screen text-7xl font-extrabold justify-center items-start">
-        <h1 className="font-serif">
-          <span className="text-red-600">GOOD FOOD,</span>
-          <br />
-          GOOD MOOD!
-        </h1>
-        <h2 className="text-4xl font-bold font-mono ml-4 text-orange-600">MR.FOODIE</h2>
-
-        <Image
-          src="/img2.png" // Add leading slash for the correct path
-          width={500} // Use numeric value
-          height={600}
-          alt="PHOTO"
-          className="h-5/6 absolute right-0 top-28" // Corrected width class
-        />
-      </section>
+<Hero/>
+      
 
       {/* Food Images Section */}
       <section id="food" className="bg-gradient-to-tr to-orange-400 from-orange-600 max-h-max border-t-8 rounded-xl border-orange-800 p-8">
